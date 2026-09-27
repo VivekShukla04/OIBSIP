@@ -1,0 +1,81 @@
+# --- Python -------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# --- Virtual environments ------------------------------------------------------
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# --- Jupyter ------------------------------------------------------------------
+.ipynb_checkpoints/
+profile_default/
+ipython_config.py
+*~[0-9]*.ipynb
+*.ipynb_checkpoints
+
+# --- Testing / tooling caches -------------------------------------------------
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.dmypy.json
+.coverage
+htmlcov/
+.tox/
+
+# --- Secrets and credentials --------------------------------------------------
+# This repository must never contain credentials. Nothing here is required to run it.
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+credentials/
+credentials.json
+service-account*.json
+id_rsa
+id_ed25519
+.netrc
+.npmrc
+.pypirc
+
+# --- OS / editor noise --------------------------------------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+!.vscode/extensions.json
+
+# --- Local logs and temporary artefacts ---------------------------------------
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.bak
+scratch/
+
+# --- Large model / dataset caches (not needed to reproduce the notebooks) -----
+.cache/
+huggingface/
+*.parquet.tmp

@@ -1,0 +1,7 @@
+Column,Dtype_before,Dtype_after,Unconvertible_values
+age,str,int64,0
+fnlwgt,str,int64,0
+education-num,str,int64,0
+capital-gain,str,int64,0
+capital-loss,str,int64,0
+hours-per-week,str,int64,0

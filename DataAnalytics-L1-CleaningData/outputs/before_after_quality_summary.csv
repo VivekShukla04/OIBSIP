@@ -1,0 +1,11 @@
+,BEFORE,AFTER,Improvement
+Row count,32561,32537,32561  ->  32537
+Column count,15,23,15  ->  23
+Missing cells,4262,0,4262  ->  0
+Duplicate rows,24,0,24  ->  0
+Padded text values (distinct),104,0,104  ->  0
+'?' sentinel values,4262,0,4262  ->  0
+Numeric cols stored as text,6,0,6  ->  0
+Documented typos,1,0,1  ->  0
+"Top-coded placeholders (99,999)",159,0,159  ->  0
+Rows deleted as outliers,0,0,0  ->  0

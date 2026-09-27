@@ -1,0 +1,6 @@
+Column,Q1,Q3,IQR,IQR_lower,IQR_upper,IQR_outliers,IQR_outlier_pct,Zscore_outliers,Zscore_outlier_pct
+age,28.0,48.0,20.0,-2.0,78.0,142,0.44,120,0.37
+fnlwgt,117827.0,236993.0,119166.0,-60922.0,415742.0,993,3.05,346,1.06
+capital-gain,0.0,0.0,0.0,0.0,0.0,2712,8.34,215,0.66
+capital-loss,0.0,0.0,0.0,0.0,0.0,1519,4.67,1470,4.52
+hours-per-week,40.0,45.0,5.0,32.5,52.5,9002,27.67,440,1.35

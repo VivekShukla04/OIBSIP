@@ -1,0 +1,8 @@
+Issue,Location,Count,Severity,Why it matters
+' ?' used as the missing-value sentinel,"workclass, occupation, native-country","4,262 cells",High,A naive load treats ' ?' as a real category and silently creates a 'country of origin' called '?'
+Leading space on every categorical value,all 9 categorical columns,104 distinct values,High,"Splits groups and breaks joins, because ' Male' != 'Male'"
+"capital-gain == 99999 (top-coded placeholder, not a real gain)",capital-gain,159 rows,High,"A single such value is 2.4x larger than the largest genuine gain (41,310) and distorts every mean, sum and correlation"
+Misspelled category 'Holand-Netherlands',native-country,1 row,Medium,"It is a separate country from 'Netherlands' to any group-by, so the Netherlands is split into two categories"
+Redundant pair: education and education-num are 1:1,"education, education-num",16 education levels,Low,Perfectly collinear features can destabilise models; documented here rather than silently dropped
+Minimum age is 17 (below working age),age,395 rows,Medium,"Under-18s in a labour-force income extract are legitimate but must be flagged, not silently deleted"
+Extreme work weeks (up to 99 hours),hours-per-week,341 rows,Medium,"99 hours per week is a full 24 hours a day, every day; likely an entry error"

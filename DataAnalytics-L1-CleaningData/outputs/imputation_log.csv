@@ -1,0 +1,4 @@
+Column,Missing_before,Missing_pct,Strategy,Missing_after
+workclass,1836,5.64,mode = 'Private',0
+occupation,1843,5.66,mode = 'Prof-specialty',0
+native-country,583,1.79,mode = 'United-States',0

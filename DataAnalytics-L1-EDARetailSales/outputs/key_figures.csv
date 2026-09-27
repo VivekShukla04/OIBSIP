@@ -1,0 +1,19 @@
+,value
+Order lines analysed,"1,000"
+Distinct orders,979
+Distinct customers,654
+Distinct products,827
+Period,01 Jan 2011 to 30 Dec 2014
+Total revenue,"243,960.06"
+Total profit,"28,009.23"
+Overall margin,11.48%
+Loss-making lines,255 (25.5%)
+Profit lost on loss-making lines,"-20,722.57"
+Orders per customer,1.50
+Repeat-customer rate,35.0%
+Lines with discount > 20%,228 (22.8%)
+Profit from those lines,"-19,036.19"
+Strongest correlation (Sales~Ship. cost),0.878
+Strongest negative corr. (Disc.~Profit),-0.332
+Rows / columns in the raw file,"1,000 / 24"
+Exact duplicate rows found,0

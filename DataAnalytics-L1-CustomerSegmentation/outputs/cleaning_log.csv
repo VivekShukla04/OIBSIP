@@ -1,0 +1,7 @@
+Step,Rows_before,Rows_after,Rows_removed,Removed_%
+1. Remove guest checkouts (CustomerID missing),541909,406829,135080,24.93
+2. Remove cancellations (InvoiceNo starts with 'C'),406829,397924,8905,2.19
+3. Remove non-product lines (UnitPrice <= 0),397924,397884,40,0.01
+"4. Remove administrative stock codes (POST, BANK CHARGES, ...)",397884,396337,1547,0.39
+5. Remove exact duplicate rows,396337,391150,5187,1.31
+"6. Remove Quantity <= 0 and Quantity > 10,000",391150,391148,2,0.0

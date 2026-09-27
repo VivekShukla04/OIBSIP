@@ -1,0 +1,22 @@
+# Data Analytics Level 1 - Task 2: Customer Segmentation
+# Verified with Python 3.12
+#
+#   python -m venv venv
+#   source venv/bin/activate          # Windows: venv\Scripts\activate
+#   pip install -r requirements.txt
+#   python download_data.py          # optional: re-download the dataset
+#   jupyter lab Customer_Segmentation.ipynb
+
+pandas==3.0.6
+numpy==2.5.3
+matplotlib==3.11.2
+seaborn==0.13.2
+scikit-learn==1.9.1
+
+# Required to open and execute the notebook
+jupyter==1.1.1
+notebook>7
+ipykernel==7.3.0
+
+# Used by download_data.py to read the original .xlsx workbook from UCI
+openpyxl==3.1.5
